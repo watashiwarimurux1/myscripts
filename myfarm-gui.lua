@@ -44,14 +44,15 @@ end)
 
 w1:Slider('Coin Giver', 'CM', 10, 100, function(value)
     for i=1,value do
-        local A_1 = "Animal"
-        local A_2 = "Cow"
+        local A_1 = "\65\110\105\109\97\108"
+        local A_2 = "\67\111\119"
         local A_3 = 0
         local A_4 = 90000
         local Event = game:GetService("ReplicatedStorage").Inventory.Sell
         Event:FireServer(A_1, A_2, A_3, A_4)
     end
 end)
+
 
 -- W2
 local w2 = library:Window('READ FIRST: Usage')
