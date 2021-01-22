@@ -3,13 +3,13 @@ local library = loadstring(game.HttpGet(game, 'https://pastebin.com/raw/vGwikY93
 
 local w1 = library:Window('MyFarm')
 w1:Button('E = Coin', function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/watashiwarimurux1/myscripts/master/myfarm_coin_script_obfuscated.lua",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/watashiwarimurux1/myscripts/master/MyFarm/myfarm_coin_script_obfuscated.lua",true))()
 end)
 w1:Button('X = XP', function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/watashiwarimurux1/myscripts/master/myfarm_xp_script_obfuscated.lua",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/watashiwarimurux1/myscripts/master/MyFarm/myfarm_xp_script_obfuscated.lua",true))()
 end)
 w1:Button('Z = FREE ITEM', function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/watashiwarimurux1/myscripts/master/myfarm_free-item-script_obfuscated.lua",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/watashiwarimurux1/myscripts/master/MyFarm/myfarm_free-item-script_obfuscated.lua",true))()
 end)
 w1:Button('C = 100k Coin', function()
     local bind = "c" 
