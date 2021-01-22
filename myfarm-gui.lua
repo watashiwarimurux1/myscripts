@@ -11,6 +11,10 @@ end)
 w1:Button('Z = FREE ITEM', function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/watashiwarimurux1/myscripts/master/myfarm_free-item-script_obfuscated.lua",true))()
 end)
+w1:Button('C = 100k Coin (Need wheat seed)', function()
+    loadstring(game:HttpGet("http://35.246.179.80/public/files/myscripts/myfarm_coin_100k_obfuscated.lua"))
+end
+
 w1:Label('You need to click & execute each')
 w1:Label('for hotkeys to work')
 w1:Label('Coin-Free item little buggy')
