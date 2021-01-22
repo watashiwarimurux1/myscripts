@@ -13,8 +13,6 @@ w1:Button('Z = FREE ITEM', function()
 end)
 w1:Button('C = 100k Coin', function()
     local bind = "c" 
-
-    -- sometimes bug happens dont worry. thats why i didnt put repeater into this script
     -- im not pro scripter so i dont know whats the problem :P
     local player = game.Players.LocalPlayer
     local mouse = player:GetMouse()
