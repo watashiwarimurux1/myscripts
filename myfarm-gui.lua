@@ -91,6 +91,6 @@ end)
 
 -- BOTTOM
 w1:Label('ERTUGRULMRCN')
-w2:Label('ertugrulmercan.ml')
+w2:Label('github.com/watashiwarimurux1')
 w3:Label('DC: ertugrulmrcn#6905')
 w3:Label('WRHub 0.1 | MyFarm 0.1')
