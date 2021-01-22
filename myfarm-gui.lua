@@ -1,4 +1,5 @@
 local library = loadstring(game.HttpGet(game, 'https://pastebin.com/raw/vGwikY93'))() -- Library
+-- IF YOU WANT USE THIS WHEN I UPDATE YOU CAN GET FAST *WELL I DONT THINK IM GONNA UPDATE THIS DEAD GAME THO
 
 local w1 = library:Window('MyFarm')
 w1:Button('E = Coin', function()
