@@ -33,6 +33,15 @@ w1:Button('C = 100k Coin', function()
     end)
 end)
 
+w1:Button('Click to get 100k Coins', function()
+        local A_1 = "\83\101\101\100"
+        local A_2 = "\87\104\101\97\116"
+        local A_3 = 0
+        local A_4 = 100000
+        local Event = game:GetService("ReplicatedStorage").Inventory.Sell
+        Event:FireServer(A_1, A_2, A_3, A_4)
+end)
+
 w1:Slider('Coin Giver', 'CM', 10, 100, function(value)
     for i=1,value do
         local A_1 = "Animal"
@@ -44,17 +53,6 @@ w1:Slider('Coin Giver', 'CM', 10, 100, function(value)
     end
 end)
 
-w1:Label('When its 100 = 48.6M Coin')
-
-w1:Button('Click to get 100k Coins', function()
-        local A_1 = "\83\101\101\100"
-        local A_2 = "\87\104\101\97\116"
-        local A_3 = 0
-        local A_4 = 100000
-        local Event = game:GetService("ReplicatedStorage").Inventory.Sell
-        Event:FireServer(A_1, A_2, A_3, A_4)
-end)
-
 -- W2
 local w2 = library:Window('READ FIRST: Usage')
 
@@ -62,7 +60,10 @@ local w2 = library:Window('READ FIRST: Usage')
 w2:Label('You need to click, execute each')
 w2:Label('for hotkeys to work')
 w2:Label('Coin-Free item little buggy')
-
+w2:Label('----COIN GIVER----')
+w2:Label('When its 100 = 48.6M Coin')
+w2:Label('If you need another again')
+w2:Label('you need to set bar to 100')
 
 -- W3
 
