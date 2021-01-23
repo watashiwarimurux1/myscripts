@@ -50,6 +50,18 @@ w1:Slider('Coin Giver', 'CM', 10, 100, function(value)
     end
 end)
 
+w1:Slider('Coin Giver 2', '900K', 10, 100, function(value)
+    for i=1, value do
+        wait()
+        local string_1 = "Stock";
+        local string_2 = "Egg Carton";
+        local number_1 = 0;
+        local number_2 = 900000;
+        local Target = game:GetService("ReplicatedStorage").Inventory.Sell;
+        Target:FireServer(string_1, string_2, number_1, number_2);
+    end
+end)
+
 w1:Label('!!!!WARNING!!!!')
 w1:Label('1000x Might cause problems')
 
@@ -64,6 +76,18 @@ w1:Slider('1000x Coin Giver', 'CM2', 100, 1000, function(value)
     end
 end)
 
+w1:Slider('1000x Coin Giver 2', '900K2', 100, 1000, function(value)
+    for i=1, value do
+        wait()
+        local string_1 = "Stock";
+        local string_2 = "Egg Carton";
+        local number_1 = 0;
+        local number_2 = 900000;
+        local Target = game:GetService("ReplicatedStorage").Inventory.Sell;
+        Target:FireServer(string_1, string_2, number_1, number_2);
+    end
+end)
+
 -- W2
 local w2 = library:Window('READ FIRST: Usage')
 
@@ -72,9 +96,14 @@ w2:Label('You need to click, execute each')
 w2:Label('for hotkeys to work')
 w2:Label('Coin-Free item little buggy')
 w2:Label('----COIN GIVER----')
-w2:Label('When its 100 = 48.6M Coin')
 w2:Label('If you need another again')
 w2:Label('you need to set bar to 100')
+w2:Label('If you get laggy re-join')
+w2:Label('---------------------------')
+w2:Label('Coin giver dont work with')
+w2:Label('obfuscated code so i made')
+w2:Label('Unobfuscated its likely')
+w2:Label('gonna get patchet quickly.')
 
 -- W3
 
